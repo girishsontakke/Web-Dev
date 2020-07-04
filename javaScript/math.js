@@ -1,0 +1,6 @@
+console.log(Math.floor(3.2))
+console.log(Math.ceil(3.2))
+console.log(Math.round(3.4))
+console.log(Math.round(3.5))
+console.log("hello"+ "world")
+console.log("hello", "world")

@@ -1,0 +1,28 @@
+body{
+    background: #e9e3ad;
+    /* background: linear-gradient(to bottom,#f0de439d,#eee16b); */
+    
+}
+h1{
+    padding: 0px 20px;
+    border: 2px solid rgba(31, 105, 224, 0.733);
+    border-radius: 50px;
+    max-width: 500px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    box-shadow: 10px 5px 5px 5px #888888;
+}
+h1, h2, p{
+    cursor: default;
+}
+a{
+    cursor: pointer;
+    font-size: large;
+    color: chocolate;
+}
+strong{
+    font-style: italic;
+    text-decoration: underline;
+    color: rgba(228, 76, 76, 1);
+}
