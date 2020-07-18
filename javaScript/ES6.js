@@ -44,3 +44,12 @@ console.log(sym, sym1);
 // ######## arrow function ##########//
 const add = (a,b) => a+b;
 console.log(add(4,5));
+
+// ######## DESTRUCTURING ###########//
+const object = {
+    player1 : 'Girish',
+    can_play: true
+}
+
+let {player1, can_play} = object;
+console.log(player1, can_play);
