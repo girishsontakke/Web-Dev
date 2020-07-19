@@ -13,6 +13,6 @@ console.log('triplearray', triplearray);
 const filterarray = triplearray.filter(x=> x%2==0);
 console.log('filterarray', filterarray);
 
-// ########## reduce #######/
+// ########## reduce #######//
 const reducearray = array.reduce((acc, x) => acc + x);
 console.log('reducearray', reducearray);
