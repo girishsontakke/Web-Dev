@@ -1,9 +1,20 @@
 body{
-    background: #e9e3ad;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, #dbcb34e5, #e79a0a);
     /* background: linear-gradient(to bottom,#f0de439d,#eee16b); */
-    
+}
+.container{
+    max-width: 80%;
+    line-height: 20px;
+    display: flex;
+    flex-flow: column, nowrap;
+    justify-content: center;
 }
 h1{
+    position: relative;
+    left: 20%;
+    margin: 10px, auto;
     padding: 0px 20px;
     border: 2px solid rgba(31, 105, 224, 0.733);
     border-radius: 50px;
@@ -25,4 +36,7 @@ strong{
     font-style: italic;
     text-decoration: underline;
     color: rgba(228, 76, 76, 1);
+}
+p{
+    font-size: 1.2em;
 }
