@@ -14,3 +14,12 @@ const getData = async () => {
   );
   data.forEach((d) => console.log(d));
 };
+
+// ES8 feature for await of
+const getData2 = async () => {
+  const arrayOfPromises = urls.map(async (url) => await fetch(url));
+  for await (let promise of arrayOfPromises) {
+    const data = await promise.json();
+    console.log(data);
+  }
+};
