@@ -5,3 +5,4 @@ fs.readFile("hello.txt", (err, data) => {
   }
   console.log(data.toString("utf-8"));
 });
+console.log(__dirname);
