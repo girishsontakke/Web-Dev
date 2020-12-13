@@ -1,4 +1,4 @@
-asyncFunc = (work) => {
+let asyncFunc = (work) => {
   return new Promise((resolve, reject) => {
     if (work === "") reject("Nothing");
     setTimeout(() => {
